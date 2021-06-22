@@ -1,0 +1,5 @@
+numpy
+torch
+albumentations
+cv2
+-e git://github.com/rwightman/pytorch-image-models.git
