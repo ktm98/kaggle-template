@@ -32,7 +32,8 @@ setup(
     packages=find_packages(),
     # install_requires=_requires_from_file('requirements.txt'),
     description='utility scripts for kaggle',
-    install_requires=load_requires_from_file("requirements.txt"),
     dependency_links=load_links_from_file("requirements.txt"),
+    install_requires=load_requires_from_file("requirements.txt"),
+
     author='ktm',
 )
