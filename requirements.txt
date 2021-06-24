@@ -2,4 +2,3 @@ numpy
 torch
 albumentations
 opencv-python
--e git://github.com/rwightman/pytorch-image-models.git#egg=timm

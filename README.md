@@ -4,7 +4,7 @@
 1. install  
 online  
 ```
-pip install git+https://github.com/ktm98/kaggle-templete.git
+pip install -m git+https://github.com/ktm98/kaggle-templete.git
 ```
 or  
 
@@ -16,7 +16,7 @@ sys.path.append('../input/kaggle-templete/')
 
 2. import
 ```
-from kaggle-templete import ImageDataset, ...
+from katemp import get_optimizer, get_scheduler, ...
 
 ```
 
