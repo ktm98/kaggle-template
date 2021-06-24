@@ -1,7 +1,7 @@
 from torch.optim import Adam, SGD, AdamW
 
-from sam import SAM
-from ranger import Ranger
+from .sam import SAM
+from .ranger import Ranger
 
 
 def get_optimizer(model, optimizer_name='Adam', use_sam=False, *args, **kwargs):

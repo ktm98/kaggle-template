@@ -1,1 +1,1 @@
-from mixup import mixup_data, mixup_criterion
+from .mixup import mixup_data, mixup_criterion

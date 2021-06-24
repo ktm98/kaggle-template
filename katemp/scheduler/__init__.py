@@ -1,6 +1,6 @@
 from torch.optim.lr_scheduler import ReduceLROnPlateau, CosineAnnealingLR, CosineAnnealingWarmRestarts
 
-from scheduler import GradualWarmupSchedulerV2
+from .scheduler import GradualWarmupSchedulerV2
 
 def get_scheduler(
     optimizer,
